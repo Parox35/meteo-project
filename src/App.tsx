@@ -17,7 +17,7 @@ interface Geo {
 }
 
 const getGeo = (latitude : string, longitude: string, { setVille }: { setVille: (ville: string) => void }) => {
-  const [error, setError] = useState<ApiError | null>(null)
+  const [_, setError] = useState<ApiError | null>(null)
 
   console.log("Get geo");
 
