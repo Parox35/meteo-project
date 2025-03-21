@@ -5,11 +5,22 @@ body{
 }
 
 .inputImage{
-    width: 10%;
+    width: 5%;
     padding: 10px;
 }
 
 .inputForm{
-    /*display: flex;
-    align-items: center;*/
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.inputForm svg{
+  color: #dcd8ff;
+}
+
+.inputForm input{
+  border: none;
 }
